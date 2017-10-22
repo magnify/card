@@ -46,18 +46,30 @@
     [card]:last-child {
       margin-right: 0;
     }
-    [card] .title {
-      align-self: center;
-      background-color: rgba(0, 0, 0, .5);
-      color: #FFF;
-      line-height: 20px;
+    [card] .year {
+      background-color: dodgerblue;
+      border-radius: 4px 4px 0 0;
+      color: #fff;
       font-size: 20px;
-      font-weight: 300;
-      margin-bottom: auto;
+      font-weight: 600;
       margin-top: auto;
+      width: 40%;
+    }
+    [card] .title {
+      background-color: sandybrown;
+      border-radius: 4px;
+      color: #fff;
+      font-size: 16px;
+      margin-bottom: auto;
+      width: 80%;
+    }
+    [card] .title,
+    [card] .year {
+      align-self: center;
+      flex-grow: 0;
+      line-height: 20px;
       padding: 16px;
       text-align: center;
-      width: 80%;
     }
     [card].back {
       background: url('assets/onion-pattern.jpg');
@@ -68,7 +80,8 @@
 <body ng-controller="CardControl">
 
 <div class="card-wrapper">
-  <div card ng-repeat="card in cards" style="background-image: url(images/{{card.image}}.jpg)">
+  <div card ng-repeat="card in cards" style="background-image: url(images/{{card.image}})">
+    <div class="year">{{card.year}}</div>
     <div class="title">{{card.title}}</div>
   </div>
   <div card class="back">
