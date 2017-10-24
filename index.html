@@ -108,10 +108,10 @@
 <body ng-controller="CardControl">
 
 <div class="card-wrapper">
-  <div card class="card" ng-repeat="card in cards" style="background-image: url(images/{{card.image}})">
+  <div card class="card" ng-repeat="card in cards | orderBy:'year'" style="background-image: url(images/{{card.image}})">
     <div class="title no-year">{{card.title}}</div>
   </div>
-  <div card ng-repeat="card in cards" style="background-image: url(images/{{card.image}})">
+  <div card ng-repeat="card in cards | orderBy:'year'" style="background-image: url(images/{{card.image}})">
     <div class="title">{{card.title}}</div>
     <div class="year-wrapper" ng-if="card.year">
       <div class="year">{{card.year}}</div>

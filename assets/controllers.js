@@ -23,13 +23,13 @@ cardApp.controller('CardControl', function($scope) {
     },
     {
       'title': 'Brian tager et hovedspring ud af en flyttebil',
-      'year': '',
-      'image': ''
+      'year': '1986',
+      'image': 'flyttebil.jpg'
     },
     {
       'title': 'Brian tager et hovedspring på den store rampe i klubben',
-      'year': '',
-      'image': ''
+      'year': '1993',
+      'image': 'halfpipe.jpeg'
     },
     {
       'title': 'Brian frier til Janni',
@@ -38,38 +38,38 @@ cardApp.controller('CardControl', function($scope) {
     },
     {
       'title': 'Janni og Brian møder hinanden',
-      'year': '',
-      'image': ''
+      'year': '2009',
+      'image': 'moedtes.jpg'
     },
     {
       'title': 'Janni og Michael slår Mette og Brian i ølbowlingfinalen',
-      'year': '',
-      'image': ''
+      'year': '2011',
+      'image': 'oelbowling.jpg'
     },
     {
       'title': 'Janni ser Mathiases røvhår',
-      'year': '',
-      'image': ''
+      'year': '2011',
+      'image': 'rovhaar.jpg'
     },
     {
       'title': 'Janni bliver født',
       'year': '1981',
-      'image': ''
+      'image': 'janni-foedt.png'
     },
     {
       'title': 'Brian bliver født',
       'year': '1980',
-      'image': ''
+      'image': 'brian-foedt.jpg'
     },
     {
       'title': 'Janni bliver student',
       'year': '2001',
-      'image': ''
+      'image': 'student.jpg'
     },
     {
       'title': 'Brian dropper ud af dyrepasseruddannelsen',
       'year': '1999',
-      'image': ''
+      'image': 'dyrepasser.jpg'
     },
     {
       'title': 'Janni får sit første kys',
@@ -87,39 +87,84 @@ cardApp.controller('CardControl', function($scope) {
       'image': 'malta.jpg'
     },
     {
-      'title': '',
-      'year': '',
-      'image': ''
+      'title': 'Janni snaver 19 fyre på én aften',
+      'year': '2002',
+      'image': 'snaver.jpg'
     },
     {
-      'title': '',
-      'year': '',
-      'image': ''
+      'title': 'Janni og Brian flytter sammen',
+      'year': '2010',
+      'image': 'noerrealle.jpg'
     },
     {
-      'title': '',
-      'year': '',
-      'image': ''
+      'title': 'Brian ser en flok ællinger, tager et billede og sender til Janni',
+      'year': '2012',
+      'image': 'aender.png'
     },
     {
-      'title': '',
-      'year': '',
-      'image': ''
+      'title': 'Janni får sit første job',
+      'year': '1994',
+      'image': 'hundelufter.jpg'
     },
     {
-      'title': '',
-      'year': '',
-      'image': ''
+      'title': 'Janni går kold til en fest og bliver kørt på skadestuen',
+      'year': '2001',
+      'image': 'george-clooney.png'
     },
     {
-      'title': '',
-      'year': '',
-      'image': ''
+      'title': 'Brian kommer op at slås med sin matematiklærer',
+      'year': '1989',
+      'image': 'fightclub.jpg'
     },
     {
-      'title': '',
-      'year': '',
-      'image': ''
+      'title': 'Brian ridser en parkeret BMW',
+      'year': '1985',
+      'image': 'bmw.jpg'
+    },
+    {
+      'title': 'Brian forsvandt',
+      'year': '1981',
+      'image': 'forsvandt.jpg'
+    },
+    {
+      'title': 'Brian og Johnny måler hvor meget toiletpapir der er på en toiletrulle',
+      'year': '1983',
+      'image': 'toiletpapir.jpg'
+    },
+    {
+      'title': 'Brian bliver tingfinder',
+      'year': '1984',
+      'image': 'tingfinder.jpg'
+    },
+    {
+      'title': 'Brian får en lillebror',
+      'year': '1991',
+      'image': 'lennart.jpg'
+    },
+    {
+      'title': 'Janni scorer en buschauffør',
+      'year': '2007',
+      'image': 'buschauffoer.jpg'
+    },
+    {
+      'title': 'Janni farer vild 500 meter fra sit hus',
+      'year': '1985',
+      'image': 'lost.png'
+    },
+    {
+      'title': 'Janni vinder Eurovision pokalen',
+      'year': '2014',
+      'image': 'eurovision.jpg'
+    },
+    {
+      'title': 'Janni stjæler en sofa',
+      'year': '2008',
+      'image': 'sofa.jpg'
+    },
+    {
+      'title': 'Brian er til Nik og Jay koncert',
+      'year': '2007',
+      'image': 'nik-jay.jpg'
     }
   ];
 });
